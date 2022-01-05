@@ -1,0 +1,17 @@
+/*variable-color:white;*/
+
+:root{
+	--variable-color:#F3950D;
+	--grande:50px;	
+}
+
+h1{
+	color:var(--variable-colo,white);
+}
+h2{
+	color:var(--variable-color);
+}
+h3{
+	color:var(--variable-color);
+	font-size:var(--grande);
+}
